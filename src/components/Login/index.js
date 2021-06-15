@@ -54,7 +54,6 @@ const LoginComponent = ({
             label="Username"
             iconPosition="right"
             placeholder="Enter Username"
-            value={form.userName || null}
             onChangeText={(value) => {
               onChange({name: 'userName', value});
             }}
